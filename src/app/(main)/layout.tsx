@@ -25,6 +25,14 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className="scroll-smooth">
+			<head>
+			<script
+            src="https://beamanalytics.b-cdn.net/beam.min.js"
+            data-token="8efceb49-2776-47f5-bb58-33fcc018acc9"
+            async
+            >
+</script>
+			</head>
 			<body className={(poppins.className, "overflow-hidden")}>
 				<Toaster position="top-center" richColors/>
 					<div className="absolute top-0 z-[-2] h-screen w-screen bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(108,19,201,0.8),rgba(255,255,255,0))]" />
