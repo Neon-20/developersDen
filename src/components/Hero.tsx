@@ -18,8 +18,8 @@ export const Hero = () => {
 				>
 					Add resources for the community on the fly ✨
 				</Badge>
-				<h1 className="text-6xl pb-4 font-bold text-foreground">
-					Welcome to DevelopersDen
+				<h1 className="text-6xl pb-4 font-bold text-foreground sm:max-w-screen">
+					Welcome to the Den 🦁
 				</h1>
 			</div>
 			<p className="text-muted-foreground max-w-prose">
