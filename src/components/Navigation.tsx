@@ -353,7 +353,7 @@ export const Navbar = () => {
 							src={"/logo.png"}
 						/>
 						<p>
-							<span className="text-muted-foreground">Developers</span>Den
+							DevelopersDen
 						</p>
 					</Link>
 				</div>
@@ -432,7 +432,7 @@ export const Navbar = () => {
 						className="text-muted-foreground"
 						size={"sm"}
 					>
-						<Link
+						{/* <Link
 							id="newsletterLink"
 							className="flex items-center gap-2 scroll-smooth"
 							scroll
@@ -440,7 +440,7 @@ export const Navbar = () => {
 						>
 							<Inbox className=" h-5 w-5" />
 							Newsletter
-						</Link>
+						</Link> */}
 					</Button>
 				</div>
 
