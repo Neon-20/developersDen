@@ -12,6 +12,7 @@ import { createClient } from "@/lib/supabase/client";
 import { Session } from "@supabase/supabase-js";
 import { SortingSelect } from "@/components/SortingSelect";
 import { FilterSelect } from "@/components/FilterSelect";
+import { Button } from "@/components/ui/button";
 
 const supabase = createClient();
 
@@ -54,15 +55,15 @@ const Home = () => {
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.3 }}
 			>
-				<div className="py-4">
-					<h2 className="md:text-3xl text-xl font-semibold text-muted-foreground py-2 select-none">
+				<div className="py-8 relative">
+					<div className=" md:text-3xl inline-flex gap-2 absolute text-xl justify-start font-semibold text-muted-foreground py-2 select-none">
 						All Resources{" "}
-						<span className="text-muted-foreground/50 text-lg">
+						<div className="text-muted-foreground/50 text-xl mt-1.5">
 							({resources.length})
-						</span>
-					</h2>
+						</div>
+					</div>
 
-					<div className="flex flex-col sm:flex-row gap-2">
+					<div className="flex justify-end sm:flex-row gap-2">
 						<SortingSelect sort={sort} setSort={setSort} />
 						<FilterSelect filter={filter} setFilter={setFilter} />
 					</div>
