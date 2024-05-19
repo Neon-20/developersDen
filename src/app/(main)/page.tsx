@@ -56,7 +56,7 @@ const Home = () => {
 				transition={{ duration: 0.3 }}
 			>
 				<div className="py-8 relative">
-					<div className=" md:text-3xl inline-flex gap-2 absolute text-xl justify-start font-semibold text-muted-foreground py-2 select-none">
+					<div className=" md:text-3xl gap-2 -mt-2 hidden md:flex absolute text-xl justify-start font-semibold text-muted-foreground py-2 select-none">
 						All Resources{" "}
 						<div className="text-muted-foreground/50 text-xl mt-1.5">
 							({resources.length})
