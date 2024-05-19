@@ -88,7 +88,7 @@ export function ResponsiveDialog() {
 						size={"sm"}
 						className="flex items-center gap-2 "
 						onClick={() =>
-							toast.error("You need to be logged in to add a resource.")
+							toast.info("You need to be logged in to add a resource.")
 						}
 					>
 						<PlusCircle /> Add resource
@@ -130,7 +130,7 @@ export function ResponsiveDialog() {
 					variant="white"
 					className="flex items-center gap-2 "
 					onClick={() =>
-						toast.error("You need to be logged in to add a resource.")
+						toast.info("You need to be logged in to add a resource.")
 					}
 				>
 					<PlusCircle /> Add resource
