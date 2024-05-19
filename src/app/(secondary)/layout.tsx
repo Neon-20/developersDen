@@ -4,7 +4,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
 			<body className="overflow-hidden">
-				<div className="absolute top-0 z-[-2] h-screen w-screen bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,220,0.3),rgba(255,255,255,0))]" />
+				<div className="absolute top-0 z-[-2] h-screen w-screen bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(108,19,201,0.8),rgba(255,255,255,0))]" />
 				<main className="max-w-screen-xl py-8 pt-24 lg:pr-4 overflow-auto pb-24 max-h-screen mx-auto flex flex-col justify-between ">
 					{children}
 				</main>

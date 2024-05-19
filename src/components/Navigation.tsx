@@ -54,7 +54,7 @@ export const Sidebar = () => {
 
 	return (
 		<div className="lg:flex flex-col hidden max-w-sm w-full pt-24 ">
-			<div className="mb-8 w-3/5 text-foreground h-10 rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 grid grid-flow-col bg-background ">
+			<div className="mb-8 w-3/5 text-foreground h-10 rounded-md border border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 grid grid-flow-col bg-background ">
 				<Search
 					onClick={() => document?.getElementById("search")?.focus()}
 					className="h-5 w-5 mr-2"
@@ -244,7 +244,7 @@ export const Burger = () => {
 				</>
 
 				<div className="">
-					<div className="mb-8 w-full text-foreground h-10 rounded-md border border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 grid grid-flow-col bg-background ">
+					<div className="mb-8 w-full text-foreground h-10 rounded-md border-slate-200 border-input px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 grid grid-flow-col bg-background ">
 						<Search
 							onClick={() => document?.getElementById("search")?.focus()}
 							className="h-5 w-5"
@@ -426,13 +426,13 @@ export const Navbar = () => {
 						)}
 					</>
 
-					<Button
+					{/* <Button
 						variant={"outline"}
 						asChild
 						className="text-muted-foreground"
 						size={"sm"}
 					>
-						{/* <Link
+						<Link
 							id="newsletterLink"
 							className="flex items-center gap-2 scroll-smooth"
 							scroll
@@ -440,8 +440,8 @@ export const Navbar = () => {
 						>
 							<Inbox className=" h-5 w-5" />
 							Newsletter
-						</Link> */}
-					</Button>
+						</Link>
+					</Button> */}
 				</div>
 
 				<div className="lg:hidden flex items-center gap-4">

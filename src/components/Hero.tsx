@@ -14,17 +14,17 @@ export const Hero = () => {
 			<div className="flex justify-center items-center flex-col">
 				<Badge
 					variant={"outline"}
-					className="w-fit scale-[115%] mb-2 font-normal"
+					className="w-fit scale-[115%] mb-2 font-normal rounded-sm border-slate-200 animate-pulse "
 				>
-					New Resources Added Bi-Weekly!
+					Add resources for the community on the fly ✨
 				</Badge>
 				<h1 className="text-6xl pb-4 font-bold text-foreground">
 					Welcome to DevelopersDen
 				</h1>
 			</div>
 			<p className="text-muted-foreground max-w-prose">
-				The foundation of your next project. An open source collection of
-				quality resources for developers & designers.
+				DevelopersDen is an open source collection of
+				quality resources for developers, designers & backend nerds.
 			</p>
 		</motion.div>
 	);

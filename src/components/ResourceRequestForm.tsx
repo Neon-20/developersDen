@@ -142,7 +142,8 @@ export function ResourceRequestForm({
 							<FormControl>
 								<Textarea
 									{...field}
-									placeholder="DevelopersDen is the foundation of your next project. An open source collection of quality resources for developers & designers."
+									placeholder="DevelopersDen is an open source collection of
+									quality resources for developers, designers & backend nerds."
 								/>
 							</FormControl>
 							<FormMessage />

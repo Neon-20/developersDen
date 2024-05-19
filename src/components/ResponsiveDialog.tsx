@@ -96,11 +96,7 @@ export function ResponsiveDialog() {
 				)}
 				<DialogContent className="sm:max-w-[425px] ">
 					<DialogHeader>
-						<DialogTitle>Request a resource</DialogTitle>
-						<DialogDescription>
-							Request a resource to be added to the collection. We&apos;ll
-							review it and add it if it meets our standards.
-						</DialogDescription>
+						<DialogTitle>Request a resource 🚀</DialogTitle>
 					</DialogHeader>
 
 					<Separator />
