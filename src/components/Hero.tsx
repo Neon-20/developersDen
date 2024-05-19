@@ -14,11 +14,11 @@ export const Hero = () => {
 			<div className="flex justify-center items-center flex-col">
 				<Badge
 					variant={"outline"}
-					className="w-fit scale-[115%] mb-2 font-normal rounded-sm border-slate-200 animate-pulse "
+					className="w-fit scale-[115%] mb-2 font-normal rounded-sm border-slate-200 animate-pulse cursor-pointer"
 				>
 					Add resources for the community on the fly ✨
 				</Badge>
-				<h1 className="text-6xl pb-4 font-bold text-foreground sm:max-w-screen">
+				<h1 className="text-6xl pb-4 font-bold text-foreground sm:max-w-screen cursor-pointer">
 					Welcome to the Den 🦁
 				</h1>
 			</div>
