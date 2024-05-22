@@ -117,7 +117,7 @@ const ResourceCard = ({
 							<Button
 								variant={"ghost"}
 								size={"icon"}
-								disabled={favTimeout}
+								disabled={false}
 								className={cn("text-muted-foreground", !email && "hidden")}
 								onClick={() => {
 									toggleFav(name);
