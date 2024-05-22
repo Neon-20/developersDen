@@ -40,7 +40,7 @@ const ResourceCard = ({
 }) => {
 	const [email, setEmail] = useState<string | null>(null);
 	const [favs, setFavs] = useState<string[]>([]);
-	const [favTimeout, setFavTimeout] = useState<boolean>(false);
+	const [favTimeout, setFavTimeout] = useState<boolean>(true);
 	const [isMounted, setIsMounted] = useState<boolean>(false);
 
 	const getUserEmail = async () => {
