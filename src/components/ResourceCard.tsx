@@ -40,7 +40,7 @@ const ResourceCard = ({
 }) => {
 	const [email, setEmail] = useState<string | null>(null);
 	const [favs, setFavs] = useState<string[]>([]);
-	const [favTimeout, setFavTimeout] = useState<boolean>(true);
+	const [favTimeout, setFavTimeout] = useState<boolean>(false);
 	const [isMounted, setIsMounted] = useState<boolean>(false);
 
 	const getUserEmail = async () => {
@@ -117,7 +117,7 @@ const ResourceCard = ({
 							<Button
 								variant={"ghost"}
 								size={"icon"}
-								disabled={false}
+								disabled={favTimeout}
 								className={cn("text-muted-foreground", !email && "hidden")}
 								onClick={() => {
 									toggleFav(name);
