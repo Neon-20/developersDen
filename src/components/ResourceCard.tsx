@@ -85,7 +85,7 @@ const ResourceCard = ({
 		if (data) {
 			if (data[0].favs) {
 				setFavs(data[0].favs);
-				setTimeout(() => setFavTimeout(false), 1000);
+				setFavTimeout(false);
 			}
 			toast.success("Favourite updated!", { duration: 1500 });
 		}
