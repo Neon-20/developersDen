@@ -125,7 +125,7 @@ const ResourceCard = ({
 							>
 								<Bookmark
 									className={cn(
-										"h-4 w-4",
+										"h-4 w-4 z-100",
 										favs.includes(name) && "text-yellow-500 fill-yellow-500"
 									)}
 								/>
